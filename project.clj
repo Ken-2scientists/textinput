@@ -62,7 +62,8 @@
               :output-dir "target/cljsbuild/public/js/out"
               :source-map true
               :optimizations :none
-              :pretty-print  true}}}}
+              :pretty-print  true
+              :preloads [devtools.preload]}}}}
 
 
   :figwheel
